@@ -2,32 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ul li{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    color: rgb(243, 240, 237);
+    padding: 1rem;
+    border: solid #d8d3d36e 1px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: .6s;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+ul li:hover{
+    background-color: #d0cece59;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+button {
+    width: 8rem;
+    height: 3rem;
+    background-color: #8b2ab5;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .6s;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+button:hover{
+    background-color: #7b1ca430;
+    border: solid 1px #fff;
+}
+.correct{
+    background-color: #13ee43a0;
+    border: solid #13630548 1px;
+    
+}
+.wrong{
+    background-color: #f52f2f;
+    border: solid #e91d1d 1px;
 }

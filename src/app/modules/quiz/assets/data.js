@@ -1,0 +1,42 @@
+export const data = [
+    {
+        question : "What is the primary purpose of the _app.js file in a Next.js project?",
+        option1 : "Define global styles for the application.",
+        option2 : "Configure the server for API routes.",
+        option3 : "Serve as the entry point for the entire application.",
+        option4 : "Handle authentication for protected routes.",
+        ans : 3,
+    },
+    {
+        question : "Question: How does Next.js implement server-side rendering (SSR)?",
+        option1 : "Exclusively uses client-side rendering for all pages.",
+        option2 : "Employs a hybrid approach, combining server-side and client-side rendering.",
+        option3 : "Utilizes static site generation (SSG) for all pages.",
+        option4 : "Does not support server-side rendering.",
+        ans : 2,
+    },
+    {
+        question : "Which function is used to fetch data at build time for static generation in Next.js?",
+        option1 : "`getStaticPaths`",
+        option2 : "`getServerSideProps`",
+        option3 : "`getStaticProps`",
+        option4 : "`getInitialProps`",
+        ans : 3,
+    },
+    {
+        question : "Question: How can you create a dynamic route in Next.js?",
+        option1 : "By adding dynamic parameters in the file name, like `[id].js`.",
+        option2 : "Using the `dynamicRoute()` function in the page component.",
+        option3 : "Defining dynamic routes in the `next.config.js` file.",
+        option4 : "Next.js does not support dynamic routes.",
+        ans : 1,
+    },
+    {
+        question : "Question: What is the purpose of the Link component in Next.js?",
+        option1 : "Used for linking external websites.",
+        option2 : "Handles navigation between pages without a page reload.",
+        option3 : "Defines routes for API endpoints.",
+        option4 : "Configures routing in the `next.config.js` file.",
+        ans : 2,
+    },
+]
